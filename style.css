@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(160, 111, 250);
+}
+
+.container-geral{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.conteudo-principal{
+    background-color: white;
+    border-top-left-radius: 3rem;
+    min-height: 100vh;
+    height: 100%;
+    padding: 3rem 5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.tituloEFoto h2{
+    font-size: 2rem;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pesquisa a{
+    padding: 1rem 2rem;
+    background-color: rgb(160, 111, 250);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.pesquisa input{
+    padding: 1rem;
+    flex: 1;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    font-size: 1rem;
+}
+
+.cards{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    flex: 1;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgb(160, 111, 250);
+    border-radius: 1rem;
+    background-color: rgba(242, 237, 253, 0.363);
+    padding: 1.5rem;
+    max-width: 350px;
+    min-height: 165px;
+    color: rgb(0, 0, 0);
+}
+
+.card-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-texto p{
+    max-width: 40ch;
+}
+
+.card-span span{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+
+.formacoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.formacoes p{
+    background-color: rgb(160, 111, 250);
+    padding: 0.3rem;
+    color: white;
+}
